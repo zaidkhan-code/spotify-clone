@@ -1,0 +1,17 @@
+.album {
+  display: flex;
+  flex-direction: column;
+}
+.over-flow{
+  display: flex;
+  scrollbar-width: none;
+  overflow-x: auto;
+}
+.album h1 {
+  padding: 8px 12px;
+}
+.container{
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+}

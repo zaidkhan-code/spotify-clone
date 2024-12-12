@@ -1,0 +1,70 @@
+.player {
+  height: 10%;
+  color: white;
+  /* margin: 0; */
+  display: flex;
+  justify-content: start;
+  padding: 0px 10px;
+  margin-top: -15px;
+  align-items: center;
+  /* position: absolute; */
+  width: 100%;
+}
+.player-1 {
+  display: flex;
+  font-size: 15px;
+  gap: 11px;
+}
+.player-1 img {
+  width: 40px;
+}
+.des {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin: 0px auto;
+}.center-1{
+    display: flex;
+    gap: 25px;
+}.center-1 img{
+    width: 15px;
+    cursor: pointer;
+}.center-2
+{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}.line-controle{
+    width: 30vw;
+    background-color: gray;
+    border: none;
+    height: 5px;
+    border-radius: 40px;
+
+}.line{
+    height: 5px;
+    width: 200px;
+    background: green;
+    border: none;
+    border-radius: 50px;
+}.menu{
+    float: right;
+    display: flex;
+    gap: 8px;
+    margin-bottom: -16px;
+    align-items: center;
+}.menu img{
+    width: 17px;
+}.volume{
+    height: 5px;
+    width: 100px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+}

@@ -1,0 +1,21 @@
+.album-main {
+  width: 220px;
+  padding: 12px 15px;
+  cursor: pointer;
+  height: auto;
+  flex-direction: column;
+  display: flex;
+  gap: 5px;
+}
+.album-main:hover {
+  background-color: #ffffff12;
+
+}
+.image {
+  width: 190px;
+}
+.desc {
+  font-weight: 600;
+  font-size: 13px;
+  color: rgb(175, 169, 169);
+}

@@ -1,0 +1,8 @@
+.display {
+  width: 100%;
+  background-color: #121212;
+  color: white;
+  overflow: auto;
+  height: 96%;
+  padding: 15px;
+}

@@ -1,0 +1,79 @@
+.main-centre {
+  display: flex;
+  flex-direction: column;
+  /* gap: 100px; */
+}
+.album-head {
+  display: flex;
+  padding: 15px 0px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.head-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 10px;
+}
+.playlist {
+  font-size: 25px;
+  font-weight: 500;
+}
+.head-2 img {
+  width: 25px;
+}
+.head-2 h1 {
+  font-size: 80px;
+}
+.image {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+.spotipy {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.image p {
+  display: flex;
+}
+.manyitem {
+  display: flex;
+  border-bottom: 2px solid rgb(153, 151, 149);
+  /* gap: 200px; */
+  padding: 5px 10px;
+  align-items: center;
+}
+.manyitem img {
+  width: 25px;
+  margin-left: 300px;
+}
+.tiltle {
+  margin-left: 25px;
+}
+.album3 {
+  margin-left: 260px;
+}
+.Dateadded {
+  margin-left: 230px;
+}
+.onemain {
+  display: grid;
+  /* display: flex; */
+  align-items: center;
+  padding: 5px 10px;
+  grid-template-columns: 35px 285px 280px 380px 220px;
+  cursor: pointer;
+}.onemain:hover{
+  background-color: rgb(43, 41, 41);
+}
+.one2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.one2 img {
+  width: 45px;
+}

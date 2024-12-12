@@ -1,0 +1,12 @@
+.maindev {
+  height: 100vh;
+  width: 100vw;
+  background: black;
+}
+.div-child {
+  height: 90%;
+  display: flex;
+}
+::-webkit-scrollbar{
+  display: none;
+}

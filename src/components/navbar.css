@@ -1,0 +1,76 @@
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-child img {
+  width: 35px;
+  background-color: black;
+  border-radius: 50%;
+  padding: 6px;
+  cursor: pointer;
+}.nav-child img:hover{
+  background-color: rgba(13, 24, 180, 0.452);
+}
+
+.nav-2 {
+  display: flex;
+  color: black;
+  gap: 5px;
+  align-items: center;
+}
+.ok {
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+.install {
+  background: black;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 50px;
+}
+.g {
+  padding: 10px;
+  color: white;
+  background-color: rgb(184, 25, 136);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
+.main-2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.all {
+  padding: 10px 16px;
+  background-color: white;
+  border-radius: 40px;
+  cursor: pointer;
+  color: black;
+}
+.music,
+.podcasts {
+  padding: 8px 12px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 40px;
+}

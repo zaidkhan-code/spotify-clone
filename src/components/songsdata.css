@@ -1,0 +1,20 @@
+.songs-data {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 220px;
+  padding: 13px 15px;
+  height: auto;
+  cursor: pointer;
+}
+.songs-data img {
+  width: 190px;
+}
+.songs-data p {
+  color: rgb(180, 177, 177);
+  font-size: 13px;
+  font-weight: 700;
+}
+.songs-data:hover {
+  background-color: #ffffff12;
+}
